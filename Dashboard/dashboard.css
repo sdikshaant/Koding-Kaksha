@@ -1,0 +1,173 @@
+* {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #59D5E0;
+}
+
+#main1 {
+  height: 11vh;
+  width: 98.9vw;
+  overflow: hidden;
+
+}
+
+.side-nav-comp {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  position: relative;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  background-color: white;
+}
+
+#logo {
+  background: url("logo.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  width: 100px;
+  height: 90px;
+  margin-top: -6px;
+  margin-right: 20px;
+  margin-left: 30px;
+  transform: scale(0.86);
+}
+
+#heading {
+  margin-left: -15px;
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+#left-head {
+  font-family: "Denk One", sans-serif;
+  opacity: 0;
+  margin-top: -50px;
+  display: flex;
+}
+
+#left-head a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#sidebar {
+  background: url("https://static.thenounproject.com/png/683452-200.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 43vw;
+  transform: scale(2.1);
+  cursor: pointer;
+}
+
+#slideArea {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  margin-left: 10px;
+  z-index: 999;
+  width: 0px;
+  height: 700px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#nav-bar {
+  background-color: white;
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+#nav-bar h3 {
+  display: inline;
+  height: fit-content;
+  width: fit-content;
+}
+
+hr {
+  height: 2px;
+  color: black;
+  width: 96vw;
+}
+
+#main2 {
+  height: 90vh;
+  width: 98.9;
+  border: 2px solid black;
+  margin-top: 2px;
+  position: absolute;
+}
+
+#photo {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 70px;
+  margin-left: 60px;
+  background-image: url("e21887ba-46d2-4217-a178-e428204bda6e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main2 h4 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 40px;
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+#course-en {
+  height: 60vh;
+  width: 40vw;
+  border: 2px solid black;
+  margin-left: 100px;
+  position: relative;
+  left: 25vw;
+  bottom: 130vh;
+  padding-top: 20px;
+
+}
+
+#course-en h6 {
+  padding-left: 17.2vw;
+  font-size: x-large;
+
+}
